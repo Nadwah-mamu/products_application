@@ -184,7 +184,7 @@ class CartScreen extends StatelessWidget {
                                           )),
                                       SizedBox(width: 8,),
                                       Text("\$${Provider.of<CartProvider>(context).totalForProduct(cartItems2[index]).toString()}",style: TextStyle(
-      git                                     color: Colors.lightGreen.shade800,
+                                          color: Colors.lightGreen.shade800,
                                           fontWeight: FontWeight.bold,
                                           fontSize: 14),)
                                     ],
